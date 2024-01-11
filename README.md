@@ -33,3 +33,12 @@ Technology Stack
 
 *   **Papaparse**: A powerful, in-browser CSV parser for React to handle CSV files.
 *   **Mongoose**: MongoDB object modeling for Node.js.
+
+Installation
+
+*   Clone the repository.
+*   Install the dependencies using `npm install`.
+*   Run the application using `npm start`.
+*   The application will be available at `localhost:3000`.
+*   Backend should be started by run `./mvnw spring-boot:run` in the backend folder.
+*   The backend server will be available at `localhost:8080`.
