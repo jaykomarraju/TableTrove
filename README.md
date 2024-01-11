@@ -32,7 +32,6 @@ Technology Stack
 ### Additional Tools
 
 *   **Papaparse**: A powerful, in-browser CSV parser for React to handle CSV files.
-*   **Mongoose**: MongoDB object modeling for Node.js.
 
 Installation
 
