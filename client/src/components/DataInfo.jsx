@@ -2,7 +2,10 @@ import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 
 const DataInfoContainer = styled.div`
-  margin: 20px;
+//   margin: 20px;
+margin: 20px;
+margin-top: 80px;
+font-family: 'Raleway', sans-serif;
 `;
 
 const DataInfo = ({ datasetId }) => {

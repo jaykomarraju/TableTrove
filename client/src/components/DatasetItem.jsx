@@ -3,14 +3,15 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
 const Item = styled.div`
-  border: 1px solid #ddd;
+  border: 1.5px solid black;
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
   cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+
 `;
 
 const DatasetItem = ({ id, name, description }) => {

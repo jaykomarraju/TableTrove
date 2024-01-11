@@ -10,6 +10,7 @@ const DataViewContainer = styled.div`
   border: 1px solid #ccc;
   margin: 20px;
   border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
 `;
 
 const Table = styled.table`

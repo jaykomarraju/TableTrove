@@ -3,12 +3,26 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
 const Button = styled.div`
-  border: 1px solid #ddd;
+  border: 1.5px solid black;
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
   text-align: center;
   cursor: pointer;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+
+`;
+
+const PlusSign = styled.div`
+  font-size: 50px;
+`;
+
+const Text = styled.div`
+  font-size: 20px;
 `;
 
 const UploadDatasetButton = () => {
@@ -21,7 +35,8 @@ const UploadDatasetButton = () => {
 
   return (
     <Button onClick={handleClick}>
-      <p>Upload Dataset</p>
+        <PlusSign>+</PlusSign>
+        <Text>Upload Dataset</Text>
     </Button>
   );
 };

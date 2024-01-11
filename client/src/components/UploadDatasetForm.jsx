@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const Form = styled.form`
   display: flex;
@@ -8,14 +9,17 @@ const Form = styled.form`
   margin: 20px;
   align-items: center;
   justify-content: center;
+  font-family: "Raleway", sans-serif;
 `;
 
 const Input = styled.input`
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 50%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  width: 60%;
+  font-family: "Raleway", sans-serif;
 
   @media (max-width: 768px) {
     width: 90%;
@@ -27,11 +31,15 @@ const Input = styled.input`
 `;
 
 const Textarea = styled.textarea`
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 50%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  min-height: 100px;
+  height: 30vh;
+  width: 60%;
+  font-family: "Raleway", sans-serif;
 
   @media (max-width: 768px) {
     width: 90%;
@@ -43,13 +51,14 @@ const Textarea = styled.textarea`
 `;
 
 const Title = styled.h2`
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 `;
 
 const UploadDatasetForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [file, setFile] = useState(null);
+  const navigate = useNavigate();
 
   const handleFileChange = (event) => {
     const uploadedFile = event.target.files[0];
@@ -59,11 +68,6 @@ const UploadDatasetForm = () => {
       alert("Please upload a CSV file.");
     }
   };
-
-  //   const handleSubmit = (event) => {
-  //     event.preventDefault();
-  //     // Here you would typically handle the form submission, e.g., by sending data to the backend.
-  //   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -91,7 +95,7 @@ const UploadDatasetForm = () => {
       .then((data) => {
         console.log("Success:", data);
         alert("Dataset uploaded successfully");
-        // Reset the form or navigate to another page
+        navigate("/app");
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -99,11 +103,9 @@ const UploadDatasetForm = () => {
       });
   };
 
-  // Dummy useEffect to simulate data sending
   useEffect(() => {
     if (title && description && file) {
       console.log("Data ready to be sent:", { title, description, file });
-      // Here, you would send data to your Java backend
     }
   }, [title, description, file]);
 
