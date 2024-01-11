@@ -1,4 +1,4 @@
-# TableTrove
+TableTrove
 ==========
 
 TableTrove is a web application that allows users to upload CSV files, view them as tables, and save these datasets with titles and descriptions. This application makes it easy to import, visualize, and share data from CSV documents.
