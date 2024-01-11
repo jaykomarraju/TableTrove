@@ -1,0 +1,81 @@
+RespondentID,Age,Gender,Education,Employment,Income,Opinion1,Opinion2,Opinion3,Satisfaction
+100100,29,Male,Bachelor's,Employed,40000,Agree,Neutral,Disagree,4
+100200,35,Female,Master's,Self-employed,55000,Strongly Agree,Agree,Neutral,5
+100300,42,Other,High School,Unemployed,0,Disagree,Strongly Disagree,Agree,2
+100400,28,Female,Doctorate,Employed,70000,Neutral,Agree,Strongly Agree,5
+100500,33,Male,Bachelor's,Employed,45000,Agree,Neutral,Disagree,3
+107700,49,Male,Bachelor's,Self-employed,100000,Strongly Disagree,Neutral,Agree,5
+105700,27,Female,Master's,Self-employed,25000,Agree,Disagree,Agree,2
+104300,49,Male,Doctorate,Self-employed,100000,Agree,Disagree,Agree,2
+104200,36,Male,Bachelor's,Self-employed,100000,Neutral,Strongly Disagree,Disagree,1
+108400,22,Male,High School,Employed,0,Strongly Agree,Strongly Disagree,Strongly Disagree,2
+101800,64,Female,Bachelor's,Employed,55000,Agree,Neutral,Agree,3
+104100,38,Other,Bachelor's,Unemployed,40000,Disagree,Agree,Neutral,5
+102200,22,Male,High School,Student,25000,Strongly Disagree,Strongly Disagree,Neutral,1
+102700,22,Other,Doctorate,Unemployed,85000,Strongly Disagree,Agree,Disagree,1
+107800,65,Other,Doctorate,Unemployed,70000,Strongly Disagree,Strongly Agree,Disagree,1
+105800,63,Other,Bachelor's,Self-employed,40000,Strongly Agree,Strongly Agree,Neutral,1
+104000,28,Male,Bachelor's,Student,100000,Agree,Agree,Agree,3
+106100,36,Male,High School,Self-employed,25000,Agree,Neutral,Strongly Agree,2
+109600,52,Male,High School,Unemployed,85000,Neutral,Strongly Disagree,Agree,3
+106000,23,Female,Doctorate,Unemployed,40000,Agree,Agree,Strongly Agree,1
+100900,53,Female,Master's,Unemployed,0,Strongly Agree,Disagree,Disagree,4
+105600,35,Other,Doctorate,Student,55000,Strongly Agree,Neutral,Agree,4
+105701,24,Other,Bachelor's,Self-employed,25000,Disagree,Agree,Strongly Agree,1
+102800,62,Other,Bachelor's,Student,100000,Strongly Agree,Disagree,Neutral,4
+103700,27,Female,Master's,Employed,100000,Agree,Strongly Disagree,Neutral,5
+102701,38,Other,Master's,Self-employed,100000,Disagree,Strongly Agree,Strongly Agree,2
+104800,44,Male,Master's,Self-employed,40000,Neutral,Disagree,Agree,1
+102000,56,Male,High School,Unemployed,55000,Strongly Agree,Strongly Agree,Disagree,1
+102300,37,Female,Doctorate,Unemployed,55000,Agree,Strongly Agree,Agree,2
+104001,44,Female,High School,Employed,55000,Strongly Disagree,Neutral,Neutral,3
+101200,35,Female,Doctorate,Unemployed,25000,Neutral,Strongly Disagree,Disagree,4
+101700,60,Female,Bachelor's,Student,55000,Disagree,Agree,Strongly Disagree,2
+107100,56,Male,Bachelor's,Unemployed,85000,Neutral,Agree,Strongly Disagree,1
+101100,33,Female,Master's,Employed,70000,Neutral,Disagree,Strongly Agree,1
+107400,46,Other,High School,Unemployed,0,Disagree,Agree,Neutral,5
+103300,30,Female,Bachelor's,Student,55000,Neutral,Neutral,Agree,2
+105000,50,Other,Master's,Student,100000,Disagree,Strongly Agree,Strongly Agree,2
+100600,65,Male,Bachelor's,Employed,100000,Strongly Disagree,Agree,Neutral,3
+102500,32,Female,High School,Student,70000,Disagree,Strongly Agree,Strongly Agree,5
+108000,20,Male,Bachelor's,Self-employed,70000,Neutral,Agree,Strongly Agree,2
+110000,63,Other,Master's,Employed,25000,Neutral,Strongly Agree,Disagree,5
+108200,40,Female,Doctorate,Self-employed,40000,Agree,Disagree,Strongly Agree,5
+104600,45,Other,Doctorate,Student,0,Neutral,Agree,Strongly Agree,1
+102201,18,Male,Doctorate,Self-employed,85000,Neutral,Strongly Disagree,Agree,4
+101400,55,Male,Bachelor's,Student,40000,Strongly Agree,Strongly Agree,Disagree,3
+101500,65,Male,High School,Self-employed,85000,Strongly Agree,Disagree,Agree,5
+104900,59,Other,Bachelor's,Employed,55000,Agree,Strongly Disagree,Neutral,3
+101401,54,Female,High School,Unemployed,40000,Strongly Disagree,Strongly Agree,Strongly Disagree,1
+101300,61,Female,Master's,Student,100000,Strongly Disagree,Strongly Disagree,Agree,4
+108300,26,Other,Doctorate,Self-employed,70000,Disagree,Disagree,Agree,4
+106300,33,Male,High School,Employed,55000,Strongly Agree,Strongly Disagree,Disagree,3
+106400,56,Other,Doctorate,Employed,70000,Agree,Strongly Disagree,Neutral,5
+100901,52,Female,Bachelor's,Employed,70000,Agree,Neutral,Strongly Disagree,3
+108900,50,Male,Doctorate,Unemployed,70000,Agree,Disagree,Agree,1
+107101,34,Other,Bachelor's,Employed,100000,Strongly Disagree,Disagree,Strongly Disagree,4
+103800,29,Female,Bachelor's,Self-employed,40000,Strongly Disagree,Strongly Disagree,Disagree,5
+105801,26,Female,Doctorate,Self-employed,70000,Neutral,Strongly Agree,Strongly Disagree,3
+104601,43,Male,High School,Employed,100000,Neutral,Disagree,Strongly Agree,4
+107600,22,Female,Doctorate,Self-employed,100000,Strongly Disagree,Strongly Disagree,Agree,1
+110001,39,Male,High School,Unemployed,0,Agree,Agree,Neutral,5
+105802,57,Female,Doctorate,Self-employed,25000,Neutral,Disagree,Agree,4
+101600,20,Other,Master's,Employed,25000,Strongly Agree,Disagree,Strongly Agree,2
+102301,38,Other,High School,Unemployed,0,Strongly Agree,Strongly Agree,Strongly Disagree,3
+102801,55,Other,Doctorate,Unemployed,0,Agree,Strongly Disagree,Strongly Agree,5
+101301,64,Male,Bachelor's,Employed,25000,Strongly Disagree,Strongly Disagree,Disagree,1
+102600,51,Other,Doctorate,Unemployed,40000,Disagree,Agree,Agree,4
+102100,37,Male,Bachelor's,Self-employed,55000,Neutral,Strongly Disagree,Neutral,3
+105300,57,Female,Doctorate,Self-employed,70000,Agree,Agree,Neutral,2
+109000,37,Female,Master's,Unemployed,85000,Strongly Agree,Strongly Agree,Strongly Agree,5
+109100,19,Other,Master's,Unemployed,100000,Strongly Disagree,Strongly Disagree,Agree,1
+104201,34,Other,Bachelor's,Student,100000,Strongly Disagree,Agree,Agree,2
+102702,49,Other,High School,Student,85000,Disagree,Strongly Disagree,Strongly Disagree,1
+104400,62,Female,Bachelor's,Self-employed,100000,Strongly Agree,Neutral,Neutral,5
+104101,46,Other,Bachelor's,Self-employed,0,Strongly Agree,Agree,Agree,4
+103801,42,Other,Master's,Self-employed,100000,Strongly Agree,Disagree,Strongly Disagree,4
+105702,45,Male,Doctorate,Student,100000,Neutral,Neutral,Strongly Disagree,5
+109601,56,Other,Master's,Student,55000,Disagree,Disagree,Neutral,4
+104602,43,Female,Doctorate,Employed,40000,Agree,Strongly Agree,Disagree,1
+103400,60,Other,High School,Student,100000,Neutral,Strongly Disagree,Neutral,4
+106600,23,Male,Bachelor's,Employed,85000,Disagree,Strongly Disagree,Strongly Disagree,1
