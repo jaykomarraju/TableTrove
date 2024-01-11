@@ -3,7 +3,7 @@ TableTrove
 
 TableTrove is a web application that allows users to upload CSV files, view them as tables, and save these datasets with titles and descriptions. This application makes it easy to import, visualize, and share data from CSV documents.
 
-## Features
+Features
 --------
 
 *   **CSV File Upload**: Users can upload CSV files and view their contents.
@@ -11,7 +11,7 @@ TableTrove is a web application that allows users to upload CSV files, view them
 *   **Save and Publish Datasets**: Users can save datasets with a title and description, making it easy to organize and share data.
 *   **Responsive Design**: Ensures a seamless experience across different devices.
 
-## Technology Stack
+Technology Stack
 ----------------
 
 ### Frontend
