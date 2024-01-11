@@ -4,7 +4,7 @@ const TestApi = () => {
     const [message, setMessage] = useState('');
 
     useEffect(() => {
-        fetch('http://127.0.0.1:8080/api/test')
+        fetch('http://calm-scrubland-61926-8fd87bc56428.herokuapp.com/api/test')
             .then(response => response.text())
             .then(data => setMessage(data));
     }, []);

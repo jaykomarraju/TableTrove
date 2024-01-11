@@ -13,7 +13,7 @@ const DataInfo = ({ datasetId }) => {
   
     useEffect(() => {
       // Fetch dataset details based on datasetId
-      fetch(`http://localhost:8080/api/datasets/detail/${datasetId}`)
+      fetch(`http://calm-scrubland-61926-8fd87bc56428.herokuapp.com/api/datasets/detail/${datasetId}`)
         .then(response => response.json())
         .then(data => setDataset(data))
         .catch(error => console.error('Error:', error));

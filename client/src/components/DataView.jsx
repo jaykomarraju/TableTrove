@@ -37,7 +37,7 @@ const DataView = ({ datasetId }) => {
   
     useEffect(() => {
       // Fetch CSV content from the backend using the datasetId
-      fetch(`http://localhost:8080/api/datasets/detail/${datasetId}`)
+      fetch(`http://calm-scrubland-61926-8fd87bc56428.herokuapp.com/api/datasets/detail/${datasetId}`)
         .then(response => response.json())
         .then(dataset => {
           if (dataset && dataset.csvContent) {

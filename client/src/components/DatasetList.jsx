@@ -17,7 +17,7 @@ const DatasetList = () => {
   const [datasets, setDatasets] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/datasets/list')
+    fetch('http://calm-scrubland-61926-8fd87bc56428.herokuapp.com/api/datasets/list')
       .then(response => response.json())
       .then(data => setDatasets(data))
       .catch(error => console.error('Error fetching data:', error));

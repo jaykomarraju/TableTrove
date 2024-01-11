@@ -82,7 +82,7 @@ const UploadDatasetForm = () => {
     formData.append("description", description);
     formData.append("file", file);
 
-    fetch("http://localhost:8080/api/datasets/upload", {
+    fetch("http://calm-scrubland-61926-8fd87bc56428.herokuapp.com/api/datasets/upload", {
       method: "POST",
       body: formData,
     })
